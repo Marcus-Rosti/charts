@@ -595,9 +595,11 @@ Fast distributed SQL query engine for big data analytics that helps you explore 
 
   One or more additional volume mounts to add to the coordinator.
   Example:
+  ```yaml
    - name: extras
      mountPath: /usr/share/extras
      readOnly: true
+  ```
 * `coordinator.annotations` - object, default: `{}`  
 
   Annotations to add to the coordinator pod.
